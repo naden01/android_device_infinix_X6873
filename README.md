@@ -1,2 +1,2 @@
 # android_device_infinix_X6873
-wip
+infinix gt 30 pro twrp tree
