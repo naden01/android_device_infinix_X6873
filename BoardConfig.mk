@@ -164,7 +164,7 @@ TW_EXCLUDE_APEX := true
 TARGET_USES_MKE2FS := true # Use mke2fs to create ext4 images
 
 # Maintainer/Version
-TW_DEVICE_VERSION := LayeardTeam
+TW_DEVICE_VERSION := naze test
 
 # Set brightness path and level
 TW_FRAMERATE := 120
@@ -187,10 +187,10 @@ TW_EXCLUDE_TWRPAPP := true
 TW_USE_TOOLBOX := true
 
 # Crypto
-TW_USE_FSCRYPT_POLICY := 2
-TW_INCLUDE_CRYPTO := true
-TW_INCLUDE_CRYPTO_FBE := true
-TW_INCLUDE_FBE_METADATA_DECRYPT := true
+#TW_USE_FSCRYPT_POLICY := 2
+#TW_INCLUDE_CRYPTO := true
+#TW_INCLUDE_CRYPTO_FBE := true
+#TW_INCLUDE_FBE_METADATA_DECRYPT := true
 
 # Debug
 TWRP_INCLUDE_LOGCAT := true
